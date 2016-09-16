@@ -1,4 +1,4 @@
-#File Used
+##File Used
 getdata.zip: obtain file
 activity_labels.txt : labels of the file
 features.txt: List of all features
@@ -7,7 +7,7 @@ train/y_train.txt : Training labels.
 test/X_test.txt : Test set.
 test/y_test.txt : Test labels
 
-#Variables
+##Variables
 filename : file with data
 fileURL : get file from URL
 etiquetas : to read labels
