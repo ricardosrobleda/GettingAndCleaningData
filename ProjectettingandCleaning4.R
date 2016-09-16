@@ -57,4 +57,4 @@ matriz$subject <- as.factor(matriz$subject)
 matriz1<- melt(matriz, id = c("subject", "activity"))
 matriz_media <- dcast(matriz1, subject + activity ~ variable, mean)
 
-write.table(matriz_media, "tidy.txt", row.names = FALSE, quote = FALSE)
+write.table(matriz_media, "tidydata.txt", row.names = FALSE, quote = FALSE)
